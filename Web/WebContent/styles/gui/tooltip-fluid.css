@@ -1,0 +1,132 @@
+ #tooltip-positioner-fluid{
+	position:absolute; 
+	z-index:5001;
+}
+#tooltips-fluid{
+	width:300px; 
+	position:relative; 
+	display:none; 
+	z-index:5001;
+}
+#tooltips-fluid h2{
+	font-size:1.3em; 
+	padding:15px 0 0 15px; 
+	font-weight:bold; 
+	color:#363636;
+}
+#tooltips-fluid .tooltip-tl,#tooltips-fluid .tooltip-tr,#tooltips-fluid .tooltip-tm{
+	height:9px;
+}
+#tooltips-fluid .tooltip-tl,#tooltips-fluid .tooltip-tr{
+	width:17px; 
+	background-repeat:no-repeat;
+}
+ #tooltips-fluid .tooltip-tl{
+	float:left; 
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_tl_fluid.png);
+}
+#tooltips-fluid .tooltip-tr {
+	float:right; 
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_tr_fluid.png);
+}
+#tooltips-fluid .tooltip-tm{
+	background-repeat:repeat-x; 
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_tm_fluid.png); 
+	margin:0 17px;
+}
+#tooltips-fluid .tooltip-middle-left,#tooltips-fluid .tooltip-middle-right{
+	background-repeat:repeat-y; 
+	width:4px; 
+	height:310px;}
+#tooltips-fluid .tooltip-middle-left{
+	float:left; 
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_borderl_fluid.png);
+}
+ #tooltips-fluid .tooltip-middle-right{
+	float:right;
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_borderr_fluid.png);
+}
+ #tooltips-fluid .tooltip-middle{
+	margin-left:4px; 
+	margin-right:4px; 
+	background-color:#FEFEFE;}
+ #tooltips-fluid .tooltip-middle .tooltip-content{
+ 	padding:15px 20px;}
+ #tooltips-fluid .tooltip-middle .tooltip-content p{
+ 	margin:0px;
+}
+#tooltips-fluid #tooltip-center{}
+#tooltips-fluid .tooltip-bl,#tooltips-fluid .tooltip-br,#tooltips-fluid .tooltip-bm,#tooltips-fluid .tooltip-bl-flipped,#tooltips-fluid .tooltip-br-flipped,#tooltips-fluid .tooltip-bm-flipped{
+	height:19px;
+}
+#tooltips-fluid .tooltip-bl,#tooltips-fluid .tooltip-br {
+	width:23px; 
+	background-repeat:no-repeat;
+ }
+#tooltips-fluid .tooltip-bl{
+	float:left; 
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_bl_fluid.png); clear:both;}
+#tooltips-fluid .tooltip-br{
+	float:right; 
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_br_fluid.png); width:47px;}
+#tooltips-fluid .tooltip-bm,#tooltips-fluid .tooltip-bm-flipped {
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_bm_fluid.png); 
+	margin:0 9px; 
+	margin-left:23px; 
+	margin-right:47px;
+	padding:0;
+}
+#tooltips-fluid .tooltip-bl-flipped {
+	float:left; 
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_br_fluid_flipped.png); 
+	clear:both; 
+	width:47px;
+}
+#tooltips-fluid .tooltip-br-flipped {
+	float:right; 
+	background-image:url(../images/gui/bkg/global/tooltip/tooltip_bl_fluid_flipped.png);
+	width:23px;
+}
+#tooltips-fluid .tooltip-bm-flipped {
+	margin-left:47px; 
+	margin-right:23px;
+}
+.openTooltip {
+	position:relative; 
+	width:12px; 
+	float:left;
+	margin-right:10px; 
+	z-index:1;
+}
+span.openTooltip {
+	float:none; 
+	white-space:nowrap;
+}
+span.openTooltip img {
+	vertical-align:bottom; 
+	background:transparent url(../images/gui/bkg/global/buttons/help_icon.gif) no-repeat 0px 0px; 
+	width:15px; 
+	height:15px;
+}
+span.TooltipM img {
+	vertical-align:text-top;
+}
+span.openTooltip a {
+	width:15px;
+	height:15px;
+}
+span.openTooltip a:focus img,span.openTooltip a:hover img {
+	background-position:0px -18px;
+}
+.displayTipPositioner {
+	bottom:7px; 
+	right:-25px;
+}
+#tooltip-background-fluid {
+	position:absolute; 
+	z-index:0; 
+	left:0px; 
+	width:100%; 
+	height:100%; 
+	display:none;
+}

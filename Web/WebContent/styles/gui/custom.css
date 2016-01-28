@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+
+tr.hidePageTR {
+	display: none;
+	visibility: hidden;
+}
+
+tbody.hidePageTR {
+	display: none;
+	visibility: hidden;
+}
+
+tr.showPageTR {
+	visibility: visible;
+}
+
+tbody.showPageTR {
+	visibility: visible;
+}
+
+span.ActsAsLink {
+	color: #2F6FA9;
+	cursor: pointer;
+}
+
+div.hidePageDiv {
+	display: none;
+	visibility: hidden;
+}
+
+div.showPageDiv {
+	visibility: visible;
+	display: inline;
+}
+
+td.homeLocationTd {
+	font-weight: bold;
+}
+
+.services-tab-format {
+	vertical-align: top;
+	padding: 2px;
+}
+
+.div-table_scroll {
+	max-height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border-bottom: 1px solid #D4D4D4;
+	width: 763px;
+}
+
+.revoke-services-margin {
+	margin-left: 55px;
+	padding: 2px;
+}
+
+td.checkbox_table_position {
+	text-align: left;
+	width: 12px;
+	vertical-align: top;
+}

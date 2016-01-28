@@ -1,0 +1,110 @@
+.vtabs {
+	/* a border is required for IE otherwise the tab panels will not be aligned correctly. */
+	position: relative;  
+	border: 1px solid #ffffff;
+}
+.vtabs .vtabs-tab-column {
+	position: absolute; 
+	left: 0;
+	margin: 0; 
+	width: 130px; 
+	min-width: 130px;
+}
+.vtabs .vtabs-tab-column ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+/* css for tab that is open */
+.vtabs .vtabs-tab-column ul li.open, .vtabs .vtabs-tab-column ul li.closed {
+	background-color: #ffffff;
+	margin: 3px 0 0 0;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	/* round corners do not work in IE */
+	/* border-radius: 4px 0 0 4px; 	 updated (removed) for sprint 13, story 309 */
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-top: 1px solid #999; /* updated for sprint 13, story 309 */ /*updated for sprint  14 */
+	border-bottom: 1px solid #666; /* updated for sprint 13, story 309 */ /*updated for sprint  14 */
+	border-left: 1px solid #999; /* updated for sprint 13, story 309 */ /*updated for sprint  14 */
+	min-height:16px;
+	z-index: 10;
+	cursor: pointer;
+}
+
+
+
+.vtabs .vtabs-tab-column ul li.open.first, .vtabs .vtabs-tab-column ul li.closed.first {
+	margin-top:0;
+}
+/* css for tab that is closed */
+.vtabs .vtabs-tab-column ul li.closed {
+	background-color: #bbbbbb;
+	border-right: 1px solid #777777;
+	background-image: url("images/ClosedTabBackground.png");
+	/*background-image: url("images/ClosedTabBackground-old.png"); story 309.2 */ /*updated for sprint  14 */
+	background-repeat:repeat-x;	
+}
+/* css for tab hover */	
+.vtabs .vtabs-tab-column ul li.closed:hover {
+	background-color: #efefef;
+	background-image: url("images/ClosedTabBackgroundHover.png");
+/*	background-image: url("images/ClosedTabBackgroundHover-old.png"); story 309.2 */ /*updated for sprint  14 */
+	background-repeat:repeat-x;		
+}
+/* css for link on tab that's open */
+.vtabs .vtabs-tab-column ul li a.open, .vtabs .vtabs-tab-column ul li a.closed {
+	font: 13px Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+	text-decoration: none;
+	color: #ff0084;  /*story 309.2 */
+	color: #005A9C;
+	color: #006699;/*	story 309.2 */
+	display: block;
+	padding-left: 7px;
+	width: 187px;
+	height: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+/* css for link on tab that's closed */
+.vtabs .vtabs-tab-column ul li a.closed {
+	color: #666;
+	color: #fff; /*updated for sprint 13, 14 */
+}
+/* css for link on tab that's closed with rollover */
+.vtabs .vtabs-tab-column ul a.closed li:hover,
+.vtabs .vtabs-tab-column ul a.closed li:focus {
+	color: #333; /*updated for sprint 13 */ /*updated for sprint  14 */
+}	
+.vtabs .vtabs-content-column {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* css for the content panels */
+/*
+.vtabs .vtabs-content-column .vtabs-content-panel {
+	background-color: #ffffff;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin: 0px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;	
+	-webkit-border-bottom-left-radius: 3px;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+*/

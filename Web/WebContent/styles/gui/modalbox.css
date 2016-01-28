@@ -1,0 +1,146 @@
+.claro .dijitDialog {
+	position: absolute;
+	overflow: visible;
+	background: url(../../images/gui/bkg/global/modal/tint20.png) 0 0 repeat;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 8px;
+	border: none;
+}
+.claro .dijitDialogPaneContent {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: medium none;
+	color: #333333;
+	font-size: 1.3em;
+	height: 458px;
+	max-width: 680px;
+	line-height: 1.4em;
+	padding: 20px;
+	z-index: -1;
+}
+
+.claro .digitDialogPaneContent li.straight p {
+	line-height: 1.3em;
+	color: #666;
+	display: inline;
+}
+
+.claro .digitDialogPaneContent ul.bullet {
+	list-style: disc inside;
+}
+
+.claro .digitDialogPaneContent ul.bullet li {
+	list-style: disc inside;
+}
+
+.claro .dijitDialogPaneContent h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #006699;
+	padding: 10px 0;
+}
+
+.claro .dijitDialogPaneContent ul,.claro .dijitDialogPaneContent li {
+	List-style: disc inside none;
+}
+
+.claro .dijitDialogPaneContent p {
+	color: #333333;
+/*	font-size: 1.2em;  */
+	line-height: 1.4em;
+	padding-bottom: 10px;
+}
+
+.claro .digitDialogPaneContent #termsConditions {
+	width: 640px;
+	padding-right: 30px;
+}
+
+.claro .dijitDialogPaneContentArea {
+	margin: -10px -8px;
+	padding: 10px 8px;
+}
+
+.claro .dijitDialogPaneActionBar {
+	background-color: #efefef;
+	padding: 3px 5px 2px 7px;
+	text-align: right;
+	border-top: 1px solid #d3d3d3;
+	margin: 10px -8px -10px;
+}
+
+.claro .dijitDialogPaneActionBar .dijitButton {
+	float: none;
+}
+
+.claro .dijitDialogTitleBar {
+	border: none;
+	border-top: none;
+	background-color: #fff;
+	background-image: none;
+	background-repeat: repeat-x;
+	padding: 0;
+}
+
+.claro .dijitDialogTitle {
+	padding: 0;
+	color: #fff;
+}
+
+.claro .dijitDialogCloseIcon {
+	position: absolute;
+	background: url(../../images/gui/bkg/global/modal/btn_popup_close.png) 0
+		0 no-repeat;
+	width: 34px;
+	height: 34px;
+	display: block;
+	text-indent: -9999px;
+	top: -7px;
+	right: -7px;
+}
+
+.dj_ie6 .claro .dijitDialogCloseIcon {
+	background-image:
+		url("../../images/gui/bkg/global/modal/btn_popup_close.png");
+}
+
+.claro .dijitDialogCloseIconHover,.claro .dijitDialogCloseIcon:hover {
+	background-position: -35px 0;
+}
+
+
+.claro .dijitDialogCloseIconActive {
+	background-position: -35px 0;
+}
+
+.claro .dijitDialogUnderlayWrapper {
+	
+}
+
+#dialogBackground_underlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+}
+
+div.hideDivButton {
+	visibility: hidden;
+	display: none;
+}
+
+div.twoButtonsStyle {
+	margin-left: 100px;
+}
+
+div.oneButtonStyle {
+	margin-left: 145px;
+}
+
+div.showDivButton {
+	visibility: visible;
+	display: inline;
+}

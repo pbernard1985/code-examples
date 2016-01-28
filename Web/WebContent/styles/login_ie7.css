@@ -1,0 +1,15 @@
+.footer_div {
+	padding-left: 5px;
+}
+
+.section {
+	padding-bottom: 0px;
+	padding-top: 5px;
+}
+
+.login_error_message {
+	color: red;
+	text-align: left;
+	width: 200px;
+	padding-left: 120px;
+}

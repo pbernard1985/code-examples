@@ -1,0 +1,240 @@
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+p {
+	font-size: 10pt;
+	font-family: Arial;
+	color: #000000;
+}
+
+#content,#header {
+	width: 700px;
+	display: block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section {
+	padding-bottom: 10px;
+}
+
+.tabs {
+	background-color: #000080;
+}
+
+.tabs .text {
+	font-family: Arial;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 4px;
+}
+
+.info p {
+	BOTTOM: 0px;
+}
+
+a {
+	font-weight: bold;
+	font-size: 8pt;
+	color: #0000ff;
+	font-family: Arial;
+}
+
+a:visited {
+	color: #0000ff;
+}
+
+a:active {
+	color: #3d86aa;
+}
+
+a:hover {
+	color: #0e5679;
+}
+
+.uspsLogo {
+	float: left;
+	background-image: url('../images/hdr_uspsLogo.jpg');
+	width: 157px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+.uspsLogo p {
+	display: none;
+}
+
+.appLogo p {
+	float: right;
+	width: 300px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt;
+	COLOR: #000080;
+	FONT-FAMILY: Arial;
+	text-align: right;
+}
+
+.appLinks {
+	clear: left;
+}
+
+.appLinks ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.appLinks li {
+	display: inline;
+	margin: 0;
+}
+
+.partnership_banner_text {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12pt;
+	COLOR: #787878;
+	FONT-FAMILY: Monotype Corsiva; Arial;
+	border-top: 2px solid #000080;
+	text-align: center;
+}
+
+/* -- FORM STYLES -- */
+form {
+	margin-top: 10px;
+}
+
+label {
+	FONT: 10pt Arial;
+	COLOR: #000000;
+	width: 200px;
+	display: block;
+	float: left;
+	text-align: left;
+	height: 20px;
+}
+
+.label {
+	vertical-align: bottom;
+	display: block;
+	padding-top: 6px;
+	margin-left: 2px;
+}
+
+.field .text {
+	display: block;
+	margin-left: 122px;
+}
+
+.accesssubmit {
+	margin-left: 180px;
+	text-align: right;
+	display: block;
+}
+
+.needaccesslink {
+	margin-left: 130px;
+	text-align: right;
+	display: block;
+}
+
+form .field {
+	margin-bottom: 10px;
+}
+
+/* -- TAB STYLES -- */
+#content {
+	clear: both;
+}
+
+#sensitiveApplication .tabs,#error .tabs {
+	background-color: #b22222;
+}
+
+#sensitiveApplication .info p {
+	font-size: 8pt;
+}
+
+#error .info p {
+	color: #ff0000;
+}
+
+#importantInfoAndAppAccess {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#importantInfo {
+	width: 55%; /* (700*55%)-1 */
+	float: left;
+}
+
+#accessRequest {
+	width: 40%;
+	float: right;
+}
+
+#sensitiveApplication {
+	clear: left;
+}
+
+#appAccess {
+	position: relative;
+	float: left;
+	left: 1px;
+	width: 54%; /* (700*45%) */
+}
+
+#appAccess .section .info {
+	text-align: center;
+	width: 100%;
+}
+
+#login form {
+	left: 150px;
+	position: relative;
+	width: 400px;
+}
+
+#help .info p {
+	font-size: 8pt;
+	text-align: center;
+}
+
+#help ul {
+	text-align: center;
+}
+
+#help li {
+	FONT: 8pt Arial;
+	list-style: none;
+}
+
+.login_error_message {
+	color: red;
+	width: 250px;
+}
+.logOn {
+	padding-top: 4px;
+	width: 250px;
+}
+.floatRight {
+	float: right;
+}	
+
+
+.header_div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sub_ttl_login {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt;
+	COLOR: #000080;
+	FONT-FAMILY: Arial;
+}

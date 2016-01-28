@@ -1,0 +1,121 @@
+.thismon {
+	color: #000;
+	cursor: pointer;
+	text-align: center;
+	background-image: -moz-linear-gradient(top, #f2f2f2, #fff);
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00f2f2f2, endColorstr=#efefef)";
+	background-image: -moz-linear-gradient(top, #f2f2f2, #fff);
+	background-image: -ms-linear-gradient(top, #f2f2f2, #fff);
+	background-image: -webkit-linear-gradient(top, #f2f2f2, #fff);
+	background-image: -o-linear-gradient(top, #f2f2f2, #fff);
+	border: 1px solid #d7d7d7;
+	padding: 1px 1px 1px 1px !important;
+	font: normal bold 12px sans-serif;
+	color: #555555;
+}
+
+.thisday {
+	color: #000;
+	border: 1px solid #595900;
+	background-color: #fff;
+	cursor: pointer;
+	text-align: center;
+}
+
+table.calendar_style {
+	display: block;
+	border: 0px;
+	margin-top: -1px;
+}
+
+.calendar {
+	display: none;
+	width: 260px;
+	margin-top: -93px;
+	margin-left: 0px;
+	border: 1px solid #d7d7d7;
+}
+
+.navigate {
+	text-align: center;
+	cursor: pointer;
+	width: 0px;
+	padding: 1px 1px 1px 1px !important;
+	border: 0px;
+}
+
+input {
+	/* border: 1px solid #4e8b98; */
+	/* height: 18px; */
+}
+
+.weekdays {
+	font: normal bold 13px sans-serif;
+	color: #555555;
+}
+
+.monthdisp {
+	color: #555555;
+	font: normal bold 14px/30px sans-serif;
+	/* background-image: -moz-linear-gradient(top, #f2f2f2, #fff);
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2f2f2, endColorstr=#efefef)";
+	background-image: -ms-linear-gradient(top, #f2f2f2, #fff);
+	background-image: -webkit-linear-gradient(top, #f2f2f2, #fff);
+	background-image: -o-linear-gradient(top, #f2f2f2, #fff); */
+	border: 0px solid #d7d7d7;
+}
+
+.imgMouseOver:hover{
+	cursor: pointer;
+}
+
+img.closeImgBtn{
+	width: 20px; 
+	height: 20px; 
+	float: right; 
+	margin-top: -10px; 
+	margin-right: -14px; 
+	border-radius: 12px; 
+	-webkit-border-radius: 12px; 
+	-moz-border-radius: 12px;
+}
+
+img.calendarImg{
+	position: absolute;
+	clip: rect(0, 28px, 25px, 0);
+	margin-top: -2px;
+	cursor: pointer;
+}
+.dialogShadowGradient{
+ 	background-image: -webkit-linear-gradient(bottom, white, #e0e0e0);
+  	background-image: -moz-linear-gradient(bottom, white, #e0e0e0);
+  	background-image: -ms-linear-gradient(bottom, white, #e0e0e0);
+  	background-image: -o-linear-gradient(bottom, white, #e0e0e0);
+  	background-image: linear-gradient(to bottom, white, #e0e0e0);
+  	background-image: -ms-linear-gradient(to bottom, white, #e0e0e0);
+  	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#e0e0e0, Strength=2, Direction=0),
+     progid:DXImageTransform.Microsoft.Shadow(Color=#e0e0e0, Strength=4, Direction=90),
+     progid:DXImageTransform.Microsoft.Shadow(Color=#e0e0e0, Strength=4, Direction=180),
+     progid:DXImageTransform.Microsoft.Shadow(Color=#e0e0e0, Strength=2, Direction=270),
+     progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='white', endColorstr='#e0e0e0');
+  	-webkit-box-shadow: 3px 3px 4px #666666;
+  	-moz-box-shadow: 3px 3px 4px #666666;
+  	box-shadow: 3px 3px 4px #666666; 
+  	border-radius: 15px; 
+  	-webkit-border-radius: 15px; 
+  	-moz-border-radius: 15px;
+  	border: 1px solid #e0e0e0;
+}
+
+.monthCell{
+	padding: 1px 1px 1px 1px !important;
+	border: 0px;
+}
+
+.monthYearCenter{
+	text-align: center; 
+	padding: 1px 1px 1px 1px !important;
+	border: 0px;
+}
